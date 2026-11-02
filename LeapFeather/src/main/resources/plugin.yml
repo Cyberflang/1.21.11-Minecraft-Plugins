@@ -1,0 +1,23 @@
+name: LeapFeather
+version: 1.0.0
+main: com.leapfeather.LeapFeatherPlugin
+api-version: '1.21'
+description: Leap feather.
+commands:
+  leap:
+    description: Leap feather commands
+    usage: /<command> <give|reload> [player]
+    aliases: [leapfeather]
+permissions:
+  leap.use:
+    description: Use the Leap feather
+    default: true
+  leap.give:
+    description: Give Leap feathers with /leap give
+    default: op
+  leap.reload:
+    description: Reload the config with /leap reload
+    default: op
+  leap.bypass-cooldown:
+    description: Ignore the Leap cooldown
+    default: op
